@@ -3220,7 +3220,7 @@ def build_damage_outgoing_by_player_skill_tids(top_stats: dict, skill_data: dict
 		player: data['dpsTargets']['damage']
 		for player, data in top_stats['player'].items()
 		if data['statsTargets']['critableDirectDamageCount'] > 0
-		and (data['statsTargets']['criticalRate'] / data['statsTargets']['critableDirectDamageCount']) > 0.45
+		#and (data['statsTargets']['criticalRate'] / data['statsTargets']['critableDirectDamageCount']) > 0.45
 		and data['dpsTargets']['damage'] > 0
 	}	
 
