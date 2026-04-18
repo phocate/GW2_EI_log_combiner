@@ -1,4 +1,5 @@
-# GW2_EI_log_combiner  ![GitHub Release](https://img.shields.io/github/v/release/Drevarr/GW2_EI_log_combiner?include_prereleases&display_name=release)
+# 2026-04-14 - GW2_EI_log_combiner - Includes edit to not discriminate in displaying damage stats by player
+
 
 GW2 - Elite Insight Multiple Log Summary
 
@@ -21,7 +22,7 @@ Currently works with WVW and Detailed WVW logs. Partially working with PVElogs, 
        -  `Example Elite Insight v3_13_0_0 and earlier Config file for log parsing.conf` for versions prior to 3.14.0.0
        -  `Example Elite Insight v3_14_0_0 Config file for log parsing.conf` for versions starting at 3.14.0.0
        -  Be sure to update your `DPSReportUserToken=YourUserTokenFromDpsReports` in the config.
- - Decompress the [latest release](https://github.com/Drevarr/GW2_EI_log_combiner/releases) file to your preferred location
+ - Decompress the [latest release](https://github.com/phocate/GW2_EI_log_combiner/releases) file to your preferred location
  - Edit the `top_stats_config.ini` file to set the `input_directory` so it points to the location of your saved JSON logs. Optional fields `db_output_filename` and `db_path` control the name and location of the SQLite database.
  - Double click the `TopStats.exe` to run
  - Open the file `/Example_Output/Top_Stats_Index.html` in your browser of choice.
@@ -43,8 +44,4 @@ Currently works with WVW and Detailed WVW logs. Partially working with PVElogs, 
 
 ---
 
-![GitHub](https://img.shields.io/github/license/Drevarr/GW2_EI_log_combiner)
-
-
-![Alt](https://repobeats.axiom.co/api/embed/30e54d6fd35e0a496f6e2edcd0fc8c40e1856f01.svg "Repobeats analytics image")
 ---
